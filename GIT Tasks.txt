@@ -1,0 +1,28 @@
+1. mkdir Project
+2. cd Project
+3. git init
+4. git status
+5. copy con index.js > Ctrl+Z > Enter
+6. git add .
+7. git commit -m "make new file"
+8. git checkout -b "feature-branch-1"
+9. git add .
+10. git commit -m "add console.log"
+11. git remote add feature-branch-1 https://github.com/aanywway/Module1_Practice.git
+12.git push -u feature-branch-1 feature-branch-1
+13. git log
+14. git checkout -b bugfix-1
+15. git add .
+16. git commit -m "Fix: fix a console.log bug"
+17. git remote add main https://github.com/aanywway/Module1_Practice.git
+18. git push -u main master
+19. git merge bugfix-1
+20. git branch hotfix-1
+21. git checkout hotfix-1
+22. git stash
+23. git pull feature-branch-1 feature-branch-1
+24. git checkout master
+25. git rebase hotfix-1
+26. git stash apply
+
+

@@ -1,0 +1,10 @@
+1. mkdir CLI_Practice
+2. cd CLI_Practice
+3. copy con commands.txt > написал контент + Ctrl+Z > Enter
+4. dir
+5. rename commands.txt notes.txt
+6. mkdir subdirectory
+7. move notes.txt subdirectory
+8. rmdir subdirectory
+9. date > copy con log.txt > скопировал дату и вставил + Ctrl+Z > Enter
+10. type log.txt
