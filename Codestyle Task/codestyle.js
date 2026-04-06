@@ -1,7 +1,7 @@
 // Declares two variables, adds them together and stores the result in the sum variable
-let firstTerm = 10; 
-let secondTerm = 20; 
-let sum = firstTerm + secondTerm; 
+const firstTerm = 10; 
+const secondTerm = 20; 
+const sum = firstTerm + secondTerm; 
 
 //Calculate the area by multiplying its length by its width
 function getArea(length, width) { 
@@ -30,10 +30,9 @@ function factorial(n) {
     }
 }
 
-let myFavNumber = 7; 
+const myFavNumber = 7; 
 
-
-let myNotFavNumber = 5; 
+const myNotFavNumber = 5; 
 
 // Function calculates and returns the sum of all elements in a numeric array
 function getSumArray(arr) {
