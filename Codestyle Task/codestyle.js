@@ -1,49 +1,54 @@
-let firstTerm = 10; // Unclear variable name
-let secondTerm = 20; // Inconsistent variable casing
-let Sum = firstTerm + secondTerm; // Mixed casing and unclear variable names
+// Declares two variables, adds them together and stores the result in the sum variable
+let firstTerm = 10; 
+let secondTerm = 20; 
+let sum = firstTerm + secondTerm; 
 
-function getArea(length, width) { // Function name is not descriptive
-    return rectArea = length * width;
+//Calculate the area by multiplying its length by its width
+function getArea(length, width) { 
+    return length * width;
 }
 
-// Function to generate random numbers without clear naming or comments
-function getRandomNumber() {
-    return Math.floor(Math.random() * 100);
+// Function returns a random integer between min and max inclusive
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-// Poorly named class with unclear purpose
-class car {
-    constructor(model, year) { // Unclear parameter names
-        this.model = model; // Inconsistent variable naming
-        this.year = year; // Inconsistent variable naming
+// Blueprint for creating car objects
+class Car {
+    constructor(model, year) { 
+        this.model = model; 
+        this.year = year; 
     }
 }
 
-// Function with poor indentation and lack of comments
+// Function calculate the factorial of number n
 function factorial(n) {
-    return n <= 1 ? 1 : n * factorial(n - 1);
+    if (n <= 1) {
+        return  1
+    } else {
+        return n * factorial(n-1)
+    }
 }
 
-// Badly named and structured variable
-let myFavNumber = 7; // Misleading variable name and missing camelCase
+let myFavNumber = 7; 
 
-// Poorly formatted comment
-let a = 5; // Misplaced comment with no space after variable assignment
 
-// Inefficient code with unnecessary repetition
+let myNotFavNumber = 5; 
+
+// Function calculates and returns the sum of all elements in a numeric array
 function getSumArray(arr) {
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {
-        sum += arr[i]; // Redundant calculation
+        sum += arr[i]; 
     }
     return sum;
 }
 
-// Non-descriptive function name and unclear purpose
-function getSumNumbers(x, y) {
-    let result = 0; // Unclear variable initialization
-    for (let i = 0; i < y; i++) { // Unclear loop condition
-        result += x; // Ambiguous operation
+// Function calculate the sum by adding the first number until it's less than the second
+function getSumNumbers(firstNumber, secondNumber) {
+    let result = 0; 
+    for (let i = 0; i < secondNumber; i++) { 
+        result += firstNumber; 
     }
-    return result; // Misleading return value
+    return result; 
 }
